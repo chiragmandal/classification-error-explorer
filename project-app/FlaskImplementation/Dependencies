@@ -1,0 +1,14 @@
+python=3.8
+conda install -c anaconda flask
+conda install -c anaconda matplotlib
+conda install -c anaconda numpy
+conda install -c conda-forge python-annoy
+conda install -c conda-forge pyarrow
+conda install pytorch torchvision torchaudio cudatoolkit=10.1 -c pytorch
+pip install torchray
+conda install -c conda-forge faiss
+conda install -c anaconda pillow
+conda install -c anaconda pandas
+#conda install -c conda-forge tensorflow
+conda install -c anaconda waitress
+conda install -c anaconda flask-cors
